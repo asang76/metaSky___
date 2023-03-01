@@ -10,3 +10,4 @@
 /* .banner_menu{height: 80vh;} */
 .Banner_links{margin-top: 200px;rotate: 90deg;}
 .Banner_links > li{margin-right:50px;list-style: none;}
+.kite_image{position: absolute; top: 10%; z-index: -1; }

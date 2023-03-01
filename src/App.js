@@ -15,7 +15,7 @@ function App() {
   <About/>
   <Web3/>
   <Investor/>
-  <Testimonial/>
+  {/* <Testimonial/> */}
   <Footer/>
     </div>
   );

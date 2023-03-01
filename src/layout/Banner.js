@@ -38,8 +38,8 @@ const Banner = () => {
         </ul>
         </div>
       </div>
-      <div className=''>
-        <img className='w-25' src={kite} alt="" />
+      <div className='position-relative'>
+        <img className='w-50 kite_image' src={kite} alt="" />
 
       </div>
 

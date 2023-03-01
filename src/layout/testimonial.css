@@ -1,49 +1,125 @@
-.testimonial_container{height: 100vh; background-color: rgb(62, 61, 61);}
+.testimonial_container{height: 400px; background-color: rgb(62, 61, 61);}
 
-.testimonial-slider {
-    position: relative;
+.test-arrowbox {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+}
+
+/* .test-arrowbox .swiper-button-next-test,
+.test-arrowbox .swiper-button-prev-test {
+  margin-right: 20px;
+  border-radius: 50%;
+  --size: 55px;
+  width: var(--size);
+  height: var(--size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.arrow-right {
+  transform: rotate(180deg);
+  margin-top: -8px;
+}
+
+.arrow {
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.arrow:hover {
+  transform: translateX(-15px);
+} */
+
+
+:root {
+    --theme-color: #3950ca;
+    --bg-color: rgba(79, 48, 183, 0.06);
+    --comp-color: #ff6584;
+    --gradient: linear-gradient(#6a5fdd 0%, #241d8c 100%);
+  }
+  @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900&display=swap');
+  body {
+       font-family: 'Poppins', sans-serif;
+    margin:0;
+    pading:0
+  }
+  .text-center {
+    text-align:center;
+    
+  }
+  h2,h1 {
+    margin:0;
+    padding-top:30px;
   }
   
-  .testimonial {
-    max-width: 500px;
-    text-align: center;
+  .bg-color {
+    background: var(--bg-color);
   }
   
-  .testimonial-text {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
+  .half-color-box {
+    background: var(--gradient);
+    height: 300px;
+    margin-bottom: 100px;
   }
   
-  .testimonial-name {
-    font-size: 1.1rem;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
+  .text-whtie {
+    color: #fff !important;
   }
   
-  .testimonial-date {
-    font-size: 0.9rem;
-    color: #aaa;
-    margin-bottom: 1rem;
+  .bold {
+    font-weight: bolder;
   }
   
-  .slider-btn {
+  .por {
+    position: relative;
+  }
+  
+  .review-box .quote {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    width: 40px;
+    right: 10px;
+    bottom: 10px;
+  }
+  
+  .test-arrowbox {
+    position: absolute;
+    right: 20px;
+    display: flex;
+    top: 70px;
+  }
+  
+  .review-box {
+    border-radius: 3px;
     background: #fff;
-    border: none;
-    color: #333;
-    font-size: 2rem;
-    cursor: pointer;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
   }
   
-  .prev-btn {
-    left: 1rem;
+  .review-box h5 {
+    margin: 0;
   }
   
-  .next-btn {
-    right: 1rem;
+  .review-box p {
+    margin-bottom: 0;
+    margin-top: 10px;
+    color: #7d8597;
+  }
+  
+  .user-post {
+    font-size: 14px;
+    margin: 0 !important;
+   
+  }
+  
+  .swiper-testimonial {
+    padding: 100px 20px;
+    padding-top: 30px;
+  }
+  
+  .half-color-box {
+    background: var(--gradient);
+    height: 300px;
+    margin-bottom: 140px;
   }
