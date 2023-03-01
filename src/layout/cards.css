@@ -1,1 +1,10 @@
-.about_cards{background-color: #D7AF09; padding: 10px;}
+.about_cards{background-color: #D7AF09; padding: 10px; }
+/* .card-img-top{width: 50px;}
+.card-text{font-size: 12px;} */
+
+/* @media only screen and (width:320px) {
+    .about_cards{margin: 3px; width: 15%; }
+    .card-img-top{width: 10px; font-size: 10px;}
+    .card-text{font-size: 10px;}
+    
+} */

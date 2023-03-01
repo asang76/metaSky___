@@ -3,4 +3,13 @@
 .bg_img{ position: absolute; right: 0%; top: -40%; z-index: -1;}
 .text_container{margin-top: 5%; z-index: 99;}
 .image_container{position: relative;}
-.web3_text{position: absolute; bottom: -170%;}
+.web3_text{position: absolute; bottom: -170%; width: 500px;}
+
+
+@media only screen and (width:320px) {
+    .bg_img{ position: absolute; right: 0%; top: 40%; z-index: -1;}
+    .image_container{position: relative; }
+    .image_container{position: absolute; right: 0%; width: 80px;}
+
+    
+}

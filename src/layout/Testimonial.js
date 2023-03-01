@@ -5,13 +5,20 @@ import arrowl from '../asset/svg/testimonialsvg/arrowl.svg'
 import arrowr from '../asset/svg/testimonialsvg/arrowr.svg'
 import { Swiper, SwiperSlide } from "swiper/react";
 
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "./style.css";
+
+// import required modules
+const navegation = {
+  nextEl: '.swiper-button-next-test',
+  prevEl: '.swiper-button-prev-test',
+  // navigation: true
+}
+
 const Testimonial = () => {
-  const navegation = {
-    nextEl: '.swiper-button-next-test',
-    prevEl: '.swiper-button-prev-test',
-    // navigation: true
-  }
-  
+
   return (
 <div>
   <div className=''>

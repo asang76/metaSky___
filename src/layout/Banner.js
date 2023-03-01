@@ -10,27 +10,27 @@ const Banner = () => {
   return (
     <div className='banner_container'>
       <div className='row'>
-        <div className='col-10 banner_left'> 
+        <div className='col-lg-9 banner_left col-sm-12'> 
       
          <img className='Star_bg' src={star} alt="" />
          <div className=''>
-          <img className='banner_circle_outer' src={outercircle} alt="" />
+          <img className='banner_circle_outer ' src={outercircle} alt="" />
          </div>
          <div className=''>
-              <img className='banner_circle' src={circle} alt="" />
+              <img className='banner_circle ' src={circle} alt="" />
          </div>
-        
+         
          <div className='banner_heading '>
-      <h1 className='w-full'>THE WEB3</h1>
-      <h1 className='w-full'>PLATFORM BUILT</h1>
-      <h1 className='w-full'>FOR YOU</h1>
+      <h1 className='sub_heading'>THE WEB3</h1>
+      <h1 className='sub_heading'>PLATFORM BUILT</h1>
+      <h1 className='sub_heading'>FOR YOU</h1>
        </div>
          <div className='banner_man'>
-         <img className='man' src={man} alt="" />
+         <img  className='man' src={man} alt="" />
          </div>
         
         </div>
-        <div className='col-2 banner_menu'>
+        <div className='col-3 banner_menu'>
         <ul className='Banner_links d-flex w-full '> 
           <li>skylab</li>
           <li>sky wallet</li>
@@ -38,10 +38,9 @@ const Banner = () => {
         </ul>
         </div>
       </div>
-      <div className='position-relative'>
-        <img className='w-50 kite_image' src={kite} alt="" />
+        <img className=' kite_image' src={kite} alt="" />
 
-      </div>
+   
 
     </div>
   )
