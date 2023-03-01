@@ -1,0 +1,4 @@
+.about_container{margin-top: -143px;}
+.left_container{background-color: #FFD318; font-family: 'Georama', sans-serif; position: relative; z-index: 99; height: 90vh; }
+.right_contianer{background-color: #222020; font-family: 'Georama', sans-serif;}
+.bg_circle{position: absolute; bottom: 1%; left: 1%; z-index: -1;}
