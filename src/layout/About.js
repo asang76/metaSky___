@@ -1,6 +1,5 @@
 import React from "react";
 import "./about.css";
-import Cards from "./Cards";
 import skyclub from "../asset/svg/aboutsvg/skyclub.svg";
 import skywallet from "../asset/svg/aboutsvg/skywallet.svg";
 import currency from "../asset/svg/aboutsvg/currency.svg";
@@ -21,7 +20,7 @@ const About = () => {
           <div className="sub_container">
             <img className="left_logo " src={skywallet} alt="" />
             <h1 className="left_heading">YOUR EVERYDAY CRYPTO WALLET</h1>
-            <div className="cards_align_right ">
+            <div className="cards_align_right d-flex justify-content-end">
             <div className="about_cards" >
                 <img src={currency} className="w-25 m-2" alt="" />
                 <div className="card-body">
@@ -69,7 +68,7 @@ const About = () => {
               YOUR EVERYDAY CRYPTO WALLET
             </h1>
             <div className="mt-5 d-flex justify-content-start cards_align">
-              <div className="about_cards">
+              <div className="about_cards " >
                 <img src={chat} className="w-25 m-2" alt="" />
                 <div className="card-body">
                   <p className="card-text w-75">

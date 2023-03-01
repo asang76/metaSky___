@@ -6,9 +6,9 @@
 .first_container_logo{ margin-bottom: 20px; margin-top: 20px; width: 150px; }
 .left_logo{ margin-bottom: 20px; margin-top: 20px; width: 250px;  }
 .left_heading{margin-top: 16px; margin-bottom: 16px; font-weight: bolder; width: 400px; }
-.cards_align_right{ margin-top: 20px; display: flex; justify-content: end;}
+.cards_align_right{ margin-top: 20px; }
 .cards_align_left{display: flex; justify-content: center;}
-.about_cards{width: 200px;}
+.about_cards{width: 200px; background-color: #D7AF09; padding: 10px;}
 
 
 @media only screen and (max-width:320px) {
