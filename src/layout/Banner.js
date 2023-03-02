@@ -10,6 +10,9 @@ import './banner.css'
 const Banner = () => {
   return (
     <div className='banner_container'>
+      <div class="field">
+		<div class="mouse"></div>
+    </div>
       <div className='row'>
         <div className='col-lg-9 banner_left col-sm-12'> 
       
@@ -42,8 +45,6 @@ const Banner = () => {
         </div>
       </div>
         <img className=' kite_image' src={kite} alt="" />
-
-   
 
     </div>
   )
