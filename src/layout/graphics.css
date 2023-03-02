@@ -1,0 +1,6 @@
+.graphics_container{position: relative; height: 100vh; margin-top: -15%; margin-bottom: 22%; }
+.bg_graphics{position: absolute;  width:100%; z-index: -1; left: 0%; }
+.graphic_heading{z-index: 99; color: white; position: absolute; top: 50%; right: 28%; align-items: center; }
+.graphic_heading>h1{font-size: 90px; color: #FFD318;  display: flex; justify-content: center; }
+.graphic_heading>p{font-size: 50px;  display: flex; justify-content: center; }
+.btn_2{background: rgb(255, 255, 255); border-radius: 200px; border: 1px solid black; display: flex; justify-content: center;}

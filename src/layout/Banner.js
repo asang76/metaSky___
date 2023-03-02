@@ -1,4 +1,5 @@
 import React from 'react'
+import { Animated } from 'react-animated-css'
 import star from '../asset/svg/bannersvg/starBg.svg'
 import man from '../asset/svg/bannersvg/man.svg'
 import circle from '../asset/svg/bannersvg/circle.svg'
@@ -26,7 +27,9 @@ const Banner = () => {
       <h1 className='sub_heading'>FOR YOU</h1>
        </div>
          <div className='banner_man'>
+          <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true} >
          <img  className='man' src={man} alt="" />
+          </Animated>
          </div>
         
         </div>
