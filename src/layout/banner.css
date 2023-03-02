@@ -10,7 +10,7 @@
 .Banner_links{margin-top: 200px;rotate: 90deg;}
 .Banner_links > li{margin-right:50px;list-style: none;}
 .sub_heading{width: 900px; font-size: 60px;}
-.kite_image{position: absolute; bottom: -8%; z-index: -1;  width: 800px; right:20%;}
+.kite_image{position: absolute;top: 50%;  z-index: -1; width: 800px; right:20%;}
 
 /* media quiers */
 
