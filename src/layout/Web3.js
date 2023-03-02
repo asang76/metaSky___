@@ -10,7 +10,7 @@ const Web3 = () => {
       <div className='row text_container'>
         <div className='col-lg-6 col-sm-12 d-flex justify-content-center'>
             <div className='w-75 '>
-            <h1 className='display-4 fw-bolder '>Communities are the lifeblood of society.</h1>
+            <h1 className='display-5 fw-bolder '>Communities are the lifeblood of society.</h1>
             <p className='fs-5 w-75'>Decentralised communities are going to be the lifeblood of the metaverse.</p>
             <p className='fs-5 w-75'>Metasky aims to empower influencers, creators and brands to build happy, motivated Web3 communities with a strong sense of belongingness.</p>
             </div>

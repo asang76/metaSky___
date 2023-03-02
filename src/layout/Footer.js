@@ -15,7 +15,7 @@ const Footer = () => {
             <img className='heading_image w-50' src={heading} alt="" />
  <div className='d-flex justify-content-center button_container '>
       <button className='btn_1 btn '>JOIN THE TEAM</button>
-      <button className='btn_2  btn'>BUSINESS INQUIRIES</button>
+      <button className='btn_2 btn'>BUSINESS INQUIRIES</button>
       </div>
       <div className='mt-5 d-flex justify-content-center '>
         <img className='w-50' src={art} alt="" />

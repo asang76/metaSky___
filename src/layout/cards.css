@@ -1,4 +1,4 @@
-.about_cards{background-color: #D7AF09; padding: 10px; }
+.about_cards:hover{background-color: #ad8e10;  transition: all 0.4s;}
 /* .card-img-top{width: 50px;}
 .card-text{font-size: 12px;} */
 

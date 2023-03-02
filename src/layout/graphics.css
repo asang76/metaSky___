@@ -3,4 +3,23 @@
 .graphic_heading{z-index: 99; color: white; position: absolute; top: 50%; right: 28%; align-items: center; }
 .graphic_heading>h1{font-size: 90px; color: #FFD318;  display: flex; justify-content: center; }
 .graphic_heading>p{font-size: 50px;  display: flex; justify-content: center; }
-.btn_2{background: rgb(255, 255, 255); border-radius: 200px; border: 1px solid black; display: flex; justify-content: center;}
+.btn_2{background: rgb(255, 255, 255); border-radius: 200px; border: 1px solid black; display: flex; justify-content: center; position: absolute; right: 40%;}
+.dog_image{position: absolute; z-index: -6; width: 600px; top: 35%; right: 4%;}
+
+
+
+
+/* media queriers for mobile screen  */
+
+@media only screen and (max-width:320px){
+    .graphics_container{position: relative; height: 21vh; margin-top: -15%; margin-bottom: 22%; }
+    .dog_image{width: 100px; position: absolute; top: -17%;}
+    .bg_graphics{position: absolute;  width:100%; z-index: -1; left: 0%; }
+    .graphic_heading{z-index: 99; color: white; position: absolute; top: 90%; right: 28%; align-items: center; }
+    .graphic_heading>h1{margin-top: -40%; font-size: 20px; color: #FFD318;  top: 0%; }
+    .graphic_heading>p{font-size: 10px;  display: flex; justify-content: center; }
+    .btn_3{ width: 80px; background: rgb(255, 255, 255); border-radius: 200px; border: 1px solid black; display: flex; justify-content: center; align-items: center; font-size: 10px; position: absolute; right: 25%;}
+
+
+
+}

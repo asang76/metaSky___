@@ -1,16 +1,17 @@
 .banner_left{  position: relative; height: 70vh;}
-.banner_container{height: 100vh;}
-.banner_heading{position: absolute;left:40%;width: 830px;height: 400px;background-color: transparent;padding: 10px;top: 21%;}
+.banner_container{height: 100vh; background-color: #F5F5F5; }
+.banner_heading{position: absolute;left:40%;width: 590px;height: 400px;background-color: transparent;padding: 10px;top: 21%;}
 .Star_bg{ width: 130px; position: absolute; right: 1%; top: 10%;}
 .banner_circle{position: absolute; right: 4%; width: 400px; top: 12%}
 .banner_circle_outer{position: absolute;right: 2.1%;width: 440px;height: 440px;top: 8%;}
 .man{width: 130px;}
-.banner_man{position: absolute;bottom: -15%;right: 13%;}
+.banner_man{position: absolute;bottom: -15%;right: 13%; z-index: 99;}
 .banner_menu{height: 80vh;}
-.Banner_links{margin-top: 200px;rotate: 90deg;}
-.Banner_links > li{margin-right:50px;list-style: none;}
+.Banner_links{margin-top: 200px;rotate: 90deg; display: flex; justify-content: flex-end; }
+.Banner_links > li{ padding: 3%;  list-style: none; color: #575757;}
+.Banner_links>li:hover{color: black; cursor: pointer;}
 .sub_heading{width: 900px; font-size: 60px;}
-.kite_image{position: absolute;top: 50%;  z-index: -1; width: 800px; right:20%;}
+.kite_image{position: absolute;top: 50%;  z-index: 0; width: 800px; right:20%;}
 
 /* media quiers */
 
@@ -99,20 +100,3 @@
 		height: 40px;
 	}
 }
-
-
-
-.path {
-    stroke-dasharray: 1000;
-    stroke-dashoffset: 1000;
-    animation: dash 5s linear alternate infinite;
-  }
-  
-  @keyframes dash {
-    from {
-      stroke-dashoffset: 822;
-    }
-    to {
-      stroke-dashoffset: 0;
-    }
-  }

@@ -1,13 +1,19 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { Animated } from 'react-animated-css'
 import star from '../asset/svg/bannersvg/starBg.svg'
 import man from '../asset/svg/bannersvg/man.svg'
 import circle from '../asset/svg/bannersvg/circle.svg'
 import kite from '../asset/svg/bannersvg/kite.svg'
 import outercircle from '../asset/svg/bannersvg/outercircle.svg'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 import './banner.css'
 
 const Banner = () => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
   return (
     <div className='banner_container'>
       <div class="field">
@@ -25,19 +31,19 @@ const Banner = () => {
          </div>
          
          <div className='banner_heading '>
-      <h1 className='sub_heading'>THE WEB3</h1>
-      <h1 className='sub_heading'>PLATFORM BUILT</h1>
-      <h1 className='sub_heading'>FOR YOU</h1>
+      <h1 className='sub_heading' data-aos="fade-up" data-aos-duration="1000"  >THE WEB3</h1>
+      <h1 className='sub_heading'data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" >PLATFORM BUILT</h1>
+      <h1 className='sub_heading' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">FOR YOU</h1>
        </div>
          <div className='banner_man'>
           <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true} >
-         <img  className='man' src={man} alt="" />
+         <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800" className='man' src={man} alt="" />
           </Animated>
          </div>
         
         </div>
-        <div className='col-3 banner_menu'>
-        <ul className='Banner_links d-flex w-full '> 
+        <div className='col-3 banner_menu' data-aos="fade-left">
+        <ul className='Banner_links  '> 
           <li>skylab</li>
           <li>sky wallet</li>
           <li>contact Now</li>

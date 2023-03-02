@@ -10,6 +10,10 @@
     .bg_img{ position: absolute; right: 0%; top: 40%; z-index: -1;}
     .image_container{position: relative; }
     .image_container{position: absolute; right: 0%; width: 80px;}
+    .web3_text{position: absolute; bottom: -170%; width: 200px;}
+    .web3_text{position: absolute; bottom: -170%; width: 500px; display: none;}
+
+
 
     
 }

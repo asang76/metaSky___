@@ -9,9 +9,9 @@ import twitter from '../asset/svg/navbarsvg/twitter.svg'
 
 const Navbar = () => {
   return (
-    <div className='container Navbar_main mt-2  bg-transperent'>
+    <div className='container Navbar_main mt-2  '>
         <div className='row '>
-            <div className='col-6 d-flex justify-content-start'>
+            <div className='col-6  d-flex justify-content-start'>
                 <div className=''>
                    <img className='Main_logo' src={logo} alt="" />
                 </div>
