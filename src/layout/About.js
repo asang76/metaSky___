@@ -1,6 +1,7 @@
 import React from "react";
 import "./about.css";
 import Cards from "./Cards";
+// eslint-disable-next-line no-unused-vars
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import skyclub from "../asset/svg/aboutsvg/skyclub.svg";
