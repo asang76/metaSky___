@@ -1,18 +1,20 @@
 .footer_container{height: 120vh; background-color: #F5F5F5;  }
 .button_container{margin-top: -15%;}
-.btn_1{background: yellow; border-radius: 200px; padding: 20px; width: 200px; margin-left: -10%; margin-right: 10%;}
-.btn_2{background: rgb(255, 255, 255); border-radius: 200px; padding: 20px; width: 200px; border: 1px solid black; margin-right: -5%; }
+.btn_1{background: yellow; border-radius: 200px; width: 200px; padding: 10px; border: #F5F5F5; font-size: 15px; font-weight: bold;}
+.btn_2{ border-radius: 200px; width: 200px; padding: 10px; border:1px solid #3b3b3b; font-size: 15px; font-weight: bold;}
+/* .btn_2{background: rgb(255, 255, 255); border-radius: 200px; padding: 20px; width: 200px; border: 1px solid black; margin-right: -5%; } */
 .heading_image{position: absolute; top: 15%; right: 23%;}
-
-
+.btn_1:hover{background-color: #F5F5F5; transition: all ease-in-out 300ms; border: 1px solid black;}
+.btn_2:hover{border: 1px solid rgba(0, 0, 0, 0); transition: all ease-in-out 300ms;}
 
 
 /* media queries */
 
 @media only screen and (max-width: 320px) {
-    .heading_image { position: absolute; top: 5%; right: 23%;}
-    .btn_1{background: yellow; border-radius: 200px; padding: 20px; width: 80%;  font-size: 10px;}
-    .btn_2{background: rgb(255, 255, 255); border-radius: 200px;  width: 80%; border: 1px solid black; font-size: 10px; margin-top:20% ; margin-right: -27%; }
+    .button_container{display: flex; justify-content: center; width: 100%;}
+    .heading_image { position: absolute; top: 3%; right: 21%;}
+    .btn_1{  background: yellow; border-radius: 200px; width: 50%; font-size: 10px; margin-top: 10%;}
+    .btn_2{background: rgb(255, 255, 255); border-radius: 200px;  width: 50%; border: 1px solid black; font-size: 10px;  }
 
 
 }
