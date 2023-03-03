@@ -24,10 +24,10 @@ const Testimonial = () => {
       
       <div className="test-arrowbox" style={{ display: 'flex', justifyContent: 'flex-center',}}>
         <div className="swiper-button-prev-test m-2">
-          <img src={arrowl} alt="" />
+          <img className='arrowl_hover' src={arrowl} alt="" />
         </div>
         <div className="swiper-button-next-test m-2">
-         <img src={arrowr} alt="" />
+         <img  className='arrowr_hover ' src={arrowr} alt="" />
         </div>
       </div>
       <div className='row slider_container'>
@@ -43,7 +43,7 @@ const Testimonial = () => {
         <SwiperSlide>
           <div className="review-box">
             <div className="media">
-              <img className="mr-3" src={userimg} alt="Generic placeholder" />
+              <img className="mr-3 rounded" src={userimg} alt="Generic placeholder" />
               <div className="media-body text-light">
                 <h5 className='fw-bold m-2'>Amanda Jackson</h5>
                 <p className="">CEO, NRD Group</p>
@@ -54,7 +54,7 @@ const Testimonial = () => {
         <SwiperSlide>
           <div className="review-box">
           <div className="media">
-              <img className="mr-3" src={userimg} alt="Generic placeholder" />
+              <img className="mr-3 rounded" src={userimg} alt="Generic placeholder" />
               <div className="media-body text-light">
                 <h5 className='fw-bold m-2'>Amanda Jackson</h5>
                 <p className="">CEO, NRD Group</p>
@@ -65,32 +65,32 @@ const Testimonial = () => {
         <SwiperSlide>
           <div className="review-box">
           <div className="media">
-              <img className="mr-3" src={userimg} alt="Generic placeholder" />
-              <div className="media-body text-light">
-                <h5 className='fw-bold m-2'>Amanda Jackson</h5>
-                <p className="">CEO, NRD Group</p>
-              </div>
-            </div>
-           
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="review-box">
-          <div className="media">
-              <img className="mr-3" src={userimg} alt="Generic placeholder" />
+              <img className="mr-3 rounded" src={userimg} alt="Generic placeholder" />
               <div className="media-body text-light">
                 <h5 className='fw-bold m-2'>Amanda Jackson</h5>
                 <p className="">CEO, NRD Group</p>
               </div>
             </div>
            
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="review-box">
+          <div className="media">
+              <img className="mr-3 rounded" src={userimg} alt="Generic placeholder" />
+              <div className="media-body text-light">
+                <h5 className='fw-bold m-2'>Amanda Jackson</h5>
+                <p className="">CEO, NRD Group</p>
+              </div>
+            </div>
+           
 
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="review-box">
           <div className="media">
-              <img className="mr-3" src={userimg} alt="Generic placeholder" />
+              <img className="mr-3 rounded" src={userimg} alt="Generic placeholder" />
               <div className="media-body text-light">
                 <h5 className='fw-bold m-2'>Amanda Jackson</h5>
                 <p className="">CEO, NRD Group</p>
@@ -102,7 +102,7 @@ const Testimonial = () => {
         <SwiperSlide>
           <div className="review-box">
           <div className="media">
-              <img className="mr-3" src={userimg} alt="Generic placeholder" />
+              <img className="mr-3 rounded" src={userimg} alt="Generic placeholder" />
               <div className="media-body text-light">
                 <h5 className='fw-bold m-2'>Amanda Jackson</h5>
                 <p className="">CEO, NRD Group</p>
@@ -114,7 +114,7 @@ const Testimonial = () => {
         <SwiperSlide>
           <div className="review-box">
           <div className="media">
-              <img className="mr-3" src={userimg} alt="Generic placeholder" />
+              <img className="mr-3 rounded" src={userimg} alt="Generic placeholder" />
               <div className="media-body text-light">
                 <h5 className='fw-bold m-2'>Amanda Jackson</h5>
                 <p className="">CEO, NRD Group</p>
@@ -127,7 +127,7 @@ const Testimonial = () => {
         <SwiperSlide>
           <div className="review-box">
           <div className="media">
-              <img className="mr-3" src={userimg} alt="Generic placeholder" />
+              <img className="mr-3 rounded" src={userimg} alt="Generic placeholder" />
               <div className="media-body text-light">
                 <h5 className='fw-bold m-2'>Amanda Jackson</h5>
                 <p className="">CEO, NRD Group</p>
@@ -139,7 +139,7 @@ const Testimonial = () => {
         <SwiperSlide>
           <div className="review-box">
           <div className="media">
-              <img className="mr-3" src={userimg} alt="Generic placeholder" />
+              <img className="mr-3 rounded" src={userimg} alt="Generic placeholder" />
               <div className="media-body text-light">
                 <h5 className='fw-bold m-2'>Amanda Jackson</h5>
                 <p className="">CEO, NRD Group</p>
@@ -151,7 +151,7 @@ const Testimonial = () => {
         <SwiperSlide>
           <div className="review-box">
           <div className="media">
-              <img className="mr-3" src={userimg} alt="Generic placeholder" />
+              <img className="mr-3 rounded " src={userimg} alt="Generic placeholder" />
               <div className="media-body text-light">
                 <h5 className='fw-bold m-2'>Amanda Jackson</h5>
                 <p className="">CEO, NRD Group</p>

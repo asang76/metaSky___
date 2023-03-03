@@ -2,5 +2,6 @@
 .test-arrowbox { display: flex;justify-content: flex-end;}
 :root { --theme-color: #3950ca; --bg-color: rgba(79, 48, 183, 0.06);--comp-color: #ff6584;--gradient: linear-gradient(#6a5fdd 0%, #241d8c 100%);
   } 
-
   .bg_line{position: absolute; z-index: 1; top: 16%; }
+  .arrowl_hover:hover{transform:translateX(-10px); transition: all ease-in-out 300ms; }
+  .arrowr_hover:hover{transform:translateX(10px); transition: all ease-in-out 300ms; }
