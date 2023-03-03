@@ -44,9 +44,9 @@ const Banner = () => {
         </div>
         <div className='col-3 banner_menu' data-aos="fade-left">
         <ul className='Banner_links  '> 
-          <li>skylab</li>
-          <li>sky wallet</li>
-          <li>contact Now</li>
+          <li>SKYLAB</li>
+          <li>SKY WALLET</li>
+          <li>CONTACT NOW</li>
         </ul>
         </div>
       </div>

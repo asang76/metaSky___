@@ -8,8 +8,8 @@
 .banner_man{position: absolute;bottom: -15%;right: 13%; z-index: 99;}
 .banner_menu{height: 80vh;}
 .Banner_links{margin-top: 200px;rotate: 90deg; display: flex; justify-content: flex-end; }
-.Banner_links > li{ padding: 3%;  list-style: none; color: #575757;}
-.Banner_links>li:hover{color: black; cursor: pointer;}
+.Banner_links > li{ padding: 3%;  list-style: none; color: #575757; font-weight: bold;}
+.Banner_links>li:hover{color: black; cursor: pointer; transition: all ease 300ms; transform: rotate(-90deg);}
 .sub_heading{width: 900px; font-size: 60px;}
 .kite_image{position: absolute;top: 50%;  z-index: 0; width: 800px; right:20%;}
 
